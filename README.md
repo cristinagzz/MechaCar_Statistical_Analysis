@@ -40,14 +40,17 @@ As we can see in the Lot Summary,  not every lot satisfies the condition. The fi
 
 We can see from the outcome that the p-value is bigger than our presumptive level of significance of 0.05, at 0.06028. As a result, we lack adequate data to rule out the null hypothesis. The alternative hypothesis should be disregarded and the null hypothesis accepted. With this data, we can see that the PSI for all manufacturing lots is equivalent to the population mean of 1,500 pounds per square inch.
 
+### Lot 1
 <img width="561" alt="LOT 1" src="https://user-images.githubusercontent.com/108194577/195470345-c8665cab-56d0-4810-99d1-626a5994aa2e.PNG">
 
 The p-value from this t-test is 1, which not only exceeds the significance level we expected to be 0.05, but also shows that the observed sample mean and the anticipated population mean are identical.
 
+### Lot 2
 <img width="560" alt="LOT 2" src="https://user-images.githubusercontent.com/108194577/195470356-675ebde6-11b7-4418-872a-fe1417fc02e4.PNG">
 
 With a mean of 1500.02 and a p-value of 0.6072, Lot 2 essentially produced the same results; the null hypothesis cannot be rejected and the sample mean and population mean of 1500 are statistically comparable.
 
+### Lot 3
 <img width="560" alt="LOT 3" src="https://user-images.githubusercontent.com/108194577/195470361-d0eb290e-c26e-488d-8478-afd0c196ddf8.PNG">
 
 The p-value for lot 3 from the t-test is 0.04168, which is less than the 0.05 significance limit we assumed. As a result, there is enough data to support the alternative hypothesis while rejecting the null hypothesis. According to statistics, the PSI for manufacturing lot 3 is not 1,500 pounds per square inch.
