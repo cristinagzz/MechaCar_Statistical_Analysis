@@ -55,5 +55,23 @@ With a mean of 1500.02 and a p-value of 0.6072, Lot 2 essentially produced the s
 
 The p-value for lot 3 from the t-test is 0.04168, which is less than the 0.05 significance limit we assumed. As a result, there is enough data to support the alternative hypothesis while rejecting the null hypothesis. According to statistics, the PSI for manufacturing lot 3 is not 1,500 pounds per square inch.
 
+## Deliverable 4
 
+### What metric or metrics are you going to test?
+
+For this analysis i will consider the maintenance cost metric.
+
+### What is the null hypothesis or alternative hypothesis?
+
+Ho: Null Hypothesis - MechaCar and his competitor have similar maintenance costs (considering same class cars)
+Ha: Alternative Hypothesis - MechaCar has higher prices than his competitor according to the mean
+
+### What statistical test would you use to test the hypothesis? And why?
+
+Overall, I'll conduct this investigation using an ANOVA test. Due to the fact that the ANOVA test is utilized to compare the means of a continuous numerical variable across various groups.
+
+### What data is needed to run the statistical test?
+
+I will sample 50 cars of MechaCar and 50 of the competitor and compared them according to the same class to make a more complete analysis.
+I will compare the costs of each of them to get to know if my hypothesis is correct.
 
